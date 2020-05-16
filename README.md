@@ -9,6 +9,31 @@ mobile, web and desktop from a single codebase. Flutter works with existing
 code, is used by developers and organizations around the world, and is free
 and open source.
 
+## Hi!
+
+Here's a quick note from THNKTNK. To get started with `flutter`, do the following:
+
+* `git clone https://github.com/thnktnk/flutter.git`
+* `cd flutter`
+* `git remote add upstream git@github.com:flutter/flutter.git`
+* `flutter channel stable`
+
+Now, make sure the `flutter/bin` directory is added to your `$PATH`.
+
+Verify if `flutter` is installed correctly, using:
+
+```
+➜ flutter --version                                                                                                                                                                   2s
+Flutter 1.17.1 • channel stable • https://github.com/thnktnk/flutter.git
+Framework • revision f7a6a7906b (3 days ago) • 2020-05-12 18:39:00 -0700
+Engine • revision 6bc433c6b6
+Tools • Dart 2.8.2
+```
+
+> First time you run `flutter` will probably download the `Dart SDK` and/or additional downloads.
+
+~ enjoy
+
 ## Documentation
 
 * [Install Flutter](https://flutter.dev/get-started/)
